@@ -1,0 +1,44 @@
+# site settings
+title: MA5
+subtitle: by Trey Scheid
+email: youremailaddress@gmail.com
+description: Hello, welcome to my simple site. This is for DSC180 at UCSD. 
+baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
+author:
+street_address: 1234 Somewhere Road
+city: San Diego
+state: CA
+zip_code: 92122
+country: United States of America
+phone: (123) 456-7890
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  GitHub: https://github.com/trey-scheid
+  GitLab:
+  Google-Plus:
+  Instagram:
+  LinkedIn: https://www.linkedin.com/in/trey-scheid
+  Twitter: 
+  Facebook:
+  Slack:
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 
